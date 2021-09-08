@@ -6,7 +6,7 @@
     <title>Tomcat</title>
     <style>
         body {
-            background-image: url('https://thumbor.forbes.com/thumbor/711x533/https://blogs-images.forbes.com/laurabegleybloom/files/2018/06/Bali-Sunset-JetsetChristina-Single-Fin-Uluwatu-Bali-1200x900.jpg?width=960');
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fcherry-blossom&psig=AOvVaw3PRVmtiqrmJWSMw0Xq_C6r&ust=1631175315763000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOC7kNz37vICFQAAAAAdAAAAABAD');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -29,10 +29,14 @@
     <h2>Welcome to Tomcat Website</h2>
     <h3>Registration Form</h3>
     <form action="HelloWorldServlet" method="get">
-        <label for="name">Name</label>
-        <input type="text"name="name" placeholder="Your name..">
+        <label for="fname">First Name</label>
+        <input type="text"name="fname" placeholder="Your first name..">
         <br> <br>
-    
+        
+        <label for="lname">Last Name</label>
+        <input type="text"name="lname" placeholder="Your name..">
+        <br> <br>
+        
         <label for="phn">Phone</label>
         <input type="text"name="phn" placeholder="Mobile No">
         <br><br>
@@ -41,14 +45,6 @@
         <input type="email" name="email" placeholder="Email">
         <br><br>
     
-        <label for="qualification">Qualification</label>
-        <select id="qual" name="qual">
-          <option value="10">10th Pass</option>
-          <option value="12">12th Pass</option>
-          <option value="grad">Graduate</option>
-          <option value="pg">Post Graduate</option>
-        </select>
-        <br><br>
     
         <input type="submit" value="Submit">
     </form>
